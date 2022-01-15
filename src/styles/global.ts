@@ -62,7 +62,13 @@ export const GlobalStyle = createGlobalStyle`
         right: 0;
         left: 0;
     }
-    .react-modal-content {
 
+    .react-modal-content {
+        width: 100%;
+        max-width: 576px;
+        padding: 3rem;
+        border-radius: 0.24rem;
+        background: var(--background);
+        position: relative;
     }
 `;
